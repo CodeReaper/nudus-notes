@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "cf5ba66f6a0cb9cfc7cfbd5e007166ea",
+    "packages": [
+        {
+            "name": "basho/riak",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basho/riak-php-client.git",
+                "reference": "49f6273b787ec6bc6eab46893851cc0c53d8f8b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basho/riak-php-client/zipball/49f6273b787ec6bc6eab46893851cc0c53d8f8b9",
+                "reference": "49f6273b787ec6bc6eab46893851cc0c53d8f8b9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Basho": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Riak Team",
+                    "homepage": "https://github.com/basho/riak-php-client/contributors"
+                }
+            ],
+            "description": "Official Riak PHP client for PHP 5.3",
+            "homepage": "http://basho.com/riak/",
+            "keywords": [
+                "client",
+                "database",
+                "driver",
+                "nosql",
+                "riak"
+            ],
+            "time": "2014-02-12 04:51:15"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "basho/riak": 20
+    },
+    "prefer-stable": false,
+    "platform": [],
+    "platform-dev": []
+}
